@@ -1,0 +1,35 @@
+PIMP_MY_VIM
+===========
+Essential packages and shortcuts for VIm.
+
+INSTALLATION
+===========
+	./install
+
+PACKAGES
+========
+	* pathogen
+	* auto-pair
+	* nerdcommenter
+	* nerdtree
+	* tagbar
+	* vim-easymotion
+	* vim-fugitive
+	* vim-gitgutter
+	* vim-indexed-search
+	* vim-surround
+
+SHORTCUTS
+=========
+
+Split screen navigation
+-----------------------
+<TODO>
+
+Tab navigation
+--------------
+<TODO>
+
+Toggle Pasting
+--------------
+<TODO>
