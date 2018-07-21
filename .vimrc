@@ -107,13 +107,13 @@ set hlsearch
 set colorcolumn=80
 
 " Set colorscheme
-colorscheme solarized
+colorscheme badwolf
 
 " Set Airline theme
-let g:airline_theme='solarized'
+let g:airline_theme='badwolf'
 
 " Set dark/light background
-set background=dark
+set background=light
 
 " Resolve the issue about backspace
 set backspace=indent,eol,start
