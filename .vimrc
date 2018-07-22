@@ -150,11 +150,11 @@ noremap<C-o>p : set paste<CR>
 noremap<C-o>n : set nopaste<CR>
 
 " Quick run/compile
-nnoremap gc  :!clear && cc -Wall % && ./a.out && rm a.out<CR>
-nnoremap g+  :!clear && g++ -std=c++11 -Wall % && ./a.out && rm a.out<CR>
-nnoremap gp  :!clear && python3 %<CR>
-nnoremap gh  :!clear && php %<CR>
-nnoremap gn  :!clear && node %<CR>
+nnoremap fc  :!clear && cc -Wall % && ./a.out && rm a.out<CR>
+nnoremap f+  :!clear && g++ -std=c++11 -Wall % && ./a.out && rm a.out<CR>
+nnoremap fp  :!clear && python3 %<CR>
+nnoremap fh  :!clear && php %<CR>
+nnoremap fn  :!clear && node %<CR>
 
 " Underline
 inoremap <F1> <Esc>yyp<c-v>$r=A
