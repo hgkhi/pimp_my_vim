@@ -51,6 +51,9 @@ git clone https://github.com/vim-airline/vim-airline.git ~/.vim/bundle/vim-airli
 echo "Installing vim-airline-themes"
 git clone https://github.com/vim-airline/vim-airline-themes.git ~/.vim/bundle/vim-airline-themes
 
+echo "Installing DoxygenToolkit.vim"
+git clone https://github.com/vim-scripts/DoxygenToolkit.vim.git ~/.vim/bundle/DoxygenToolkit.vim
+
 echo "Applying configuration"
 cp .vimrc ~/
 

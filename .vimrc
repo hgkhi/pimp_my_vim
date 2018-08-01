@@ -22,6 +22,15 @@ noremap <C-j> :TagbarToggle<CR>
 " Vim setting
 " -----------
 
+" Set indentation default length
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
+" Specific indentation for filetypes
+autocmd FileType text set tabstop=2 shiftwidth=2 softtabstop=2 tw=80
+
 " Shows the columns number
 set ruler
 
@@ -59,20 +68,6 @@ let mapleader = ","
 " Syntax enable
 syntax enable
 
-" Set indentation default length
-set tabstop=8
-set softtabstop=8
-set shiftwidth=8
-set noexpandtab
-
-" Identation for different file types
-autocmd Filetype python setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-autocmd Filetype php setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-autocmd Filetype javascript setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-autocmd Filetype json setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-autocmd Filetype ruby setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-autocmd Filetype text setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab tw=80
-
 " Set no line breaking
 set nowrap
 
@@ -104,7 +99,7 @@ set incsearch
 set hlsearch
 
 " Set ruler
-set colorcolumn=80
+let &colorcolumn="81,".join(range(121,999),",")
 
 " Set colorscheme
 colorscheme badwolf
