@@ -9,7 +9,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 echo "Installing auto-pair"
-git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
+git clone https://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
 
 echo "Installing nerdcommenter"
 git clone https://github.com/scrooloose/nerdcommenter.git \
@@ -19,22 +19,22 @@ echo "Installing nerdtree"
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 echo "Installing tagbar"
-git clone git://github.com/majutsushi/tagbar ~/.vim/bundle/tagbar
+git clone https://github.com/majutsushi/tagbar ~/.vim/bundle/tagbar
 
 echo "Installing vim-easymotion"
 git clone https://github.com/easymotion/vim-easymotion ~/.vim/bundle/vim-easymotion
 
 echo "Installing vim-fugitive"
-git clone git://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
+git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
 
 echo "Installing vim-gitgutter"
-git clone git://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgutter
+git clone https://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgutter
 
 echo "Installing vim-indexed-search"
 git clone https://github.com/henrik/vim-indexed-search.git ~/.vim/bundle/vim-indexed-search
 
 echo "Installing vim-surround"
-git clone git://github.com/tpope/vim-surround.git ~/.vim/bundle/vim-surround
+git clone https://github.com/tpope/vim-surround.git ~/.vim/bundle/vim-surround
 
 echo "Installing ctrlp.vim"
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
