@@ -54,6 +54,9 @@ git clone https://github.com/vim-airline/vim-airline-themes.git ~/.vim/bundle/vi
 echo "Installing DoxygenToolkit.vim"
 git clone https://github.com/vim-scripts/DoxygenToolkit.vim.git ~/.vim/bundle/DoxygenToolkit.vim
 
+echo "Installing indentLine"
+git clone https://github.com/Yggdroot/indentLine.git ~/.vim/bundle/indentLine
+
 echo "Applying configuration"
 cp .vimrc ~/
 
