@@ -102,13 +102,13 @@ set hlsearch
 let &colorcolumn="81,".join(range(121,999),",")
 
 " Set colorscheme
-colorscheme badwolf
+colorscheme solarized
 
 " Set Airline theme
-let g:airline_theme='badwolf'
+let g:airline_theme='solarized'
 
 " Set dark/light background
-set background=light
+set background=dark
 
 " Resolve the issue about backspace
 set backspace=indent,eol,start
